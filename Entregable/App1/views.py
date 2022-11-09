@@ -10,4 +10,4 @@ def mostrar_familia(request):
     f3 = Familia(nombre = 'Miguel', apellido = 'Perdigon',edad = 70, fecha_nacimiento = '1952-02-16', email = 'miguelpc@gmail.com')
     f4 = Familia(nombre = 'Ricardo', apellido = 'Perdigon',edad = 42, fecha_nacimiento = '1980-01-25', email = 'viturino@gmail.com')
 
-    return render(request, 'App1/familia.html',{'familia':[f1,f2,f3,f4]})
+    return render(request, 'familia.html',{'familia':[f1,f2,f3,f4]})
